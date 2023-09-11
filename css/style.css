@@ -1,0 +1,194 @@
+body {
+    background-color: white;
+    font-family: montserrat;
+}
+
+
+
+.nav-link{
+    color: white;
+    font-size: 14px;
+}
+
+.nav-btn{
+    font-size: 12px;
+}
+
+.navbar{
+    background-color: #038AFF;
+}
+.btn-right{
+    display: flex;
+}
+
+.lead{
+  font-weight: 500;
+}
+
+
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  .navbar-toggler {
+    border-color: rgb(255, 255, 255);
+  } 
+
+  .chip{
+    background-color: #FEBD3D;
+    border-radius: 32px;
+    font-size: 12px;
+    padding: 2px, 1px;
+    color: white;
+    max-width: 52px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .green-chip{
+    background-color: #5CCAA5;
+    border-radius: 32px;
+    font-size: 12px;
+    padding: 2px, 1px;
+    color: white;
+    max-width: 70px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .check-green{
+    color: #5CCAA5;
+  }
+
+  .blue-chip{
+    background-color: #038AFF;
+    border-radius: 32px;
+    font-size: 12px;
+    padding: 2px, 1px;
+    color: white;
+    max-width: 88px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .yellow-chip{
+    background-color: #FEBD3D;
+    border-radius: 32px;
+    font-size: 12px;
+    padding: 2px, 1px;
+    color: white;
+    max-width: 110px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .card{
+    margin-bottom: 20px;
+   
+  }
+
+  .card-header{
+    background-color: white;
+    color: #161348;
+  }
+
+.grow { 
+  max-width: 150px;
+  transition: all .2s ease-in-out; 
+  }
+  
+  .grow:hover { 
+  transform: scale(1.1); 
+  }
+
+  .footer{
+    color: white;
+  }
+
+  .footer-links{
+    color: white !important;
+  }
+
+  @media (max-width: 993px) {
+    .header-container{
+      padding-top: 0px !important;
+    }
+
+    h2{
+      font-size: 32px;
+    }
+
+    h4{
+      font-size: 22px;
+    }
+
+    .footer{
+      padding-top: 30px;
+    }
+
+    p{
+      font-size: 14px;
+    }
+    
+    .lead{
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    a{
+      font-size: 14px;
+    }
+
+    .btn{
+      font-size: 14px;
+    }
+
+    .grow{
+      max-width: 130px;
+    }
+  }
+
+  @media (max-width: 770px) {
+
+    .header-container{
+      padding-top: 0px !important;
+    }
+
+    h2{
+      font-size: 22px;
+    }
+
+    h4{
+      font-size: 18px;
+    }
+
+    .footer{
+      padding-top: 82px;
+    }
+
+    .rights{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .terms{
+      display: flex;
+      flex-direction: column;
+    }
+
+    p{
+      font-size: 14px;
+    }
+
+    .btn{
+      font-size: 14px;
+    }
+
+    .grow{
+      max-width: 180px;
+    }
+
+    .btn-right {
+      display: block;
+    }
+  }
